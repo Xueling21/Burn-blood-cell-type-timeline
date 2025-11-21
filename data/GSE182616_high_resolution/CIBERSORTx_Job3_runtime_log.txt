@@ -1,0 +1,46 @@
+>Running CIBERSORTx high-resolution GEP imputation...
+>[Options] mixture: files/yuanhe@mail.ustc.edu.cn/GSE182616_cy5_exp.txt
+>[Options] sigmatrix: files/yuanhe@mail.ustc.edu.cn/LM14.txt
+>[Options] classes: files/yuanhe@mail.ustc.edu.cn/L14merge6.txt
+>[Options] subsetgenes: files/yuanhe@mail.ustc.edu.cn/GSE1826_sur_dea_genes.txt
+>[Options] threads: 3
+>[Options] variableonly: FALSE
+>[Options] QN: TRUE
+>[Options] outdir: files/yuanhe@mail.ustc.edu.cn/results/
+>[Options] label: Job3
+>Estimating cell proportions...
+done.
+>Loaded 785 mixture samples, 18148 genes, and 6 cell subsets...
+>Imputing representative cell type GEPs...done.
+>Writing output to disk...done.
+>Running time (sec): 2050
+>Loaded 785 mixture samples, 516 genes, and 6 cell subsets...
+>Window size adaptively set to 24
+>Imputing high-resolution cell type GEPs...done.
+>Writing output to disk ...done.
+>Running time (sec): 4386
+  adding: CIBERSORTxGEP_Job3_Fractions.txt (deflated 57%)
+  adding: CIBERSORTxGEP_Job3_GEPs.txt (deflated 52%)
+  adding: CIBERSORTxGEP_Job3_GEPs_CVs.txt (deflated 54%)
+  adding: CIBERSORTxGEP_Job3_GEPs_Filtered.txt (deflated 54%)
+  adding: CIBERSORTxGEP_Job3_GEPs_Pvals.txt (deflated 54%)
+  adding: CIBERSORTxGEP_Job3_GEPs_Qvals.txt (deflated 55%)
+  adding: CIBERSORTxGEP_Job3_GEPs_StdErrs.txt (deflated 52%)
+  adding: CIBERSORTxGEP_Job3_GEPs_ThresholdPlots.jpg (deflated 2%)
+  adding: CIBERSORTxGEP_Job3_GEPs_ThresholdPlots.pdf (deflated 37%)
+  adding: CIBERSORTxGEP_Job3_SM_GEPs_Filtered.txt (deflated 54%)
+  adding: CIBERSORTxGEP_Job3_Weights.txt (deflated 61%)
+  adding: CIBERSORTxHiRes_Job3_Bcells_Window24.txt (deflated 81%)
+  adding: CIBERSORTxHiRes_Job3_Eosinophils_Window24.txt (deflated 93%)
+  adding: CIBERSORTxHiRes_Job3_Heatmap_Bcells_Window24.png (deflated 11%)
+  adding: CIBERSORTxHiRes_Job3_Heatmap_Eosinophils_Window24.png (deflated 23%)
+  adding: CIBERSORTxHiRes_Job3_Heatmap_Monocytes_Window24.png (deflated 6%)
+  adding: CIBERSORTxHiRes_Job3_Heatmap_NKcells_Window24.png (deflated 6%)
+  adding: CIBERSORTxHiRes_Job3_Heatmap_Neutrophils_Window24.png (deflated 3%)
+  adding: CIBERSORTxHiRes_Job3_Heatmap_Tcells_Window24.png (deflated 5%)
+  adding: CIBERSORTxHiRes_Job3_Monocytes_Window24.txt (deflated 77%)
+  adding: CIBERSORTxHiRes_Job3_NKcells_Window24.txt (deflated 78%)
+  adding: CIBERSORTxHiRes_Job3_Neutrophils_Window24.txt (deflated 60%)
+  adding: CIBERSORTxHiRes_Job3_Tcells_Window24.txt (deflated 67%)
+  adding: CIBERSORTx_Job3_error_log.txt (stored 0%)
+  adding: CIBERSORTx_Job3_runtime_log.txt

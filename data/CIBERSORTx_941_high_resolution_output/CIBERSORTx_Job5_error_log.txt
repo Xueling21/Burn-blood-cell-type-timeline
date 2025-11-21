@@ -1,0 +1,2 @@
+Warning message:
+In is.data.frame(frame) : NaNs produced
